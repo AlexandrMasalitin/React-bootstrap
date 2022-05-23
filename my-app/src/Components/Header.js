@@ -14,6 +14,7 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
+import Info from "../Pages/Info";
 
 export default class Header extends Component {
   render() {
@@ -44,6 +45,7 @@ export default class Header extends Component {
                 <Nav.Link href="/about">About us</Nav.Link>
                 <Nav.Link href="/contacts">Contacts</Nav.Link>
                 <Nav.Link href="/blog">Blog</Nav.Link>
+                <Nav.Link href="/info">Info</Nav.Link>
               </Nav>
               <Form inlines>
                 <FormControl
@@ -66,6 +68,7 @@ export default class Header extends Component {
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/info" element={<Info />} />
         </Routes>
       </div>
     );

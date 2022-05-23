@@ -2,6 +2,7 @@
 .App {
   text-align: center;
   
+  
 }
 
 .App-logo {
@@ -38,18 +39,17 @@
     transform: rotate(360deg);
   }
 }
-body{
-  background-color: #282c34;
-}
+
 
 /* Carousel Home */
 .carousel-style{
   width: 100%;
   height: 100%;
   margin-top: 55px;
+  background-color: #282c34;
 }
 .carousel-item{
-  max-height: 880px;
+  height: 500px;
 }
 
 
@@ -57,6 +57,7 @@ body{
 .about-style{
 margin-top: 60px;
 text-align: center ;
+
 
 }
 .about-style-content{
@@ -66,4 +67,38 @@ text-align: center ;
   width: 100%;
   height: 100%;
 
+}
+.button{
+ margin-left: 70px;
+}
+.g-4{
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+.m-5{
+  padding-top: 15px;
+}
+.blog-title{
+  text-align: center;
+  text-decoration: overline;
+}
+.container-info{
+  background-color: bisque;
+  padding-top: 65px;
+  height: auto;
+}
+
+.coctail{
+  display: inline-block;
+  margin: 5px;
+
+
+}
+.imgCoctail{
+  display: list-item; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  border: 1px solid #000; /* Рамка вокруг картинки */
+  padding: 5px; /* Поля вокруг картинки */
+  
 }
