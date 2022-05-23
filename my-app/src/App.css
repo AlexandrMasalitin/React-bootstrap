@@ -126,3 +126,15 @@ background-color: #212529;
   color: rgba(255,255,255,.55);
 
 }
+.position-items{
+display: inline;
+padding:initial;
+position: relative;
+padding-inline-start: 80px;
+
+
+}
+.position-relative{
+  margin-left: 30px;
+  margin-top: 30px;
+}
