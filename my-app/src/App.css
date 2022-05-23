@@ -79,6 +79,9 @@ text-align: center ;
 .m-5{
   padding-top: 15px;
 }
+.mr-3{
+  height: 300px;
+}
 .blog-title{
   text-align: center;
   text-decoration: overline;
@@ -101,4 +104,24 @@ text-align: center ;
   border: 1px solid #000; /* Рамка вокруг картинки */
   padding: 5px; /* Поля вокруг картинки */
   
+}
+ul.hr {
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 4px; /* Значение полей */
+ }
+ ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+  padding: 3px; /* Поля вокруг текста */
+
+ }
+.styleFooter{
+background-color: #212529;
+}
+.footerColor {
+  color: rgba(255,255,255,.55);
+
+}
+.title {
+  color: rgba(255,255,255,.55);
 }

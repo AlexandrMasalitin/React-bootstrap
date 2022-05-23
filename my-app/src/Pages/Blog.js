@@ -9,7 +9,7 @@ export default class Blog extends Component {
           <Row>
             <Col md="9">
               <Card className="m-5">
-                <img width={734} height={200} className='mr-3'
+                <img className='mr-3'
                 src={blog} alt="Blog" />
                 <Card.Body >
                   <h3 className="blog-title">Blog Post</h3>
@@ -29,7 +29,7 @@ export default class Blog extends Component {
                 </Card.Body>
               </Card>
               <Card className="m-5">
-                <img width={734} height={200} className='mr-3'
+                <img className='mr-3'
                 src={blog} alt="Blog" />
                 <Card.Body>
                   <h3 className="blog-title">Blog Post</h3>
@@ -49,7 +49,7 @@ export default class Blog extends Component {
                 </Card.Body>
               </Card>
               <Card className="m-5">
-                <img width={734} height={200} className='mr-3'
+                <img  className='mr-3'
                 src={blog} alt="Blog" />
                 <Card.Body>
                   <h3 className="blog-title">Blog Post</h3>
@@ -69,7 +69,7 @@ export default class Blog extends Component {
                 </Card.Body>
               </Card>
               <Card className="m-5">
-                <img width={734} height={200} className='mr-3'
+                <img className='mr-3'
                 src={blog} alt="Blog" />
                 <Card.Body>
                   <h3 className="blog-title">Blog Post</h3>
@@ -89,7 +89,7 @@ export default class Blog extends Component {
                 </Card.Body>
               </Card>
               <Card className="m-5">
-                <img width={734} height={200} className='mr-3'
+                <img className='mr-3'
                 src={blog} alt="Blog" />
                 <Card.Body>
                   <h3 className="blog-title">Blog Post</h3>
