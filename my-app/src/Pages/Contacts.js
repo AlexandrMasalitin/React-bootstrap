@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Form, Button , Container} from "react-bootstrap"
 import contact from '../assets/contact-photo/contact.jpg'
+import  Placement  from "../Components/Placement";
 
 export default class Contacts extends Component {
   render() {
@@ -32,7 +33,10 @@ export default class Contacts extends Component {
           </Form.Group>
           <Button variant="success" type="submit">Submit</Button>
         </Form>
+
+        <Placement />
       </Container>
+
     );
   }
 }
