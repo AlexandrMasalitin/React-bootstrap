@@ -1,15 +1,14 @@
-import React, { Component } from "react";
+import React, { Component} from "react";
 import {Form, Button , Container} from "react-bootstrap"
 import contact from '../assets/contact-photo/contact.jpg'
 import  Placement  from "../Components/Placement";
 
 export default class Contacts extends Component {
+
   render() {
     return (
 
-      <Container style={{width: '600px', marginTop : '55px'
-      
-      }}>
+      <Container style={{width: '600px', marginTop : '55px'}}>
         <img src={contact} alt='Contact img' style={{width: 600, height: 230}} />
       <h1 style={{textAlign: 'center'}}> Contact us</h1>
         <Form>

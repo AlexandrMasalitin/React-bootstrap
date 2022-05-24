@@ -19,19 +19,22 @@ const FooterPage = () => {
             <h5 className="title">Links</h5>
             <ul className="hr">
               <li className="list-unstyled">
-                <a href="/">Link 1</a>
+                <a href="/">Home</a>
               </li>
               <li className="list-unstyled">
-                <a href="/about">Link 2</a>
+                <a href="/about">About</a>
               </li>
               <li className="list-unstyled">
-                <a href="/contacts">Link 3</a>
+                <a href="/contacts">Contact</a>
               </li>
               <li className="list-unstyled">
-                <a href="/blog">Link 4</a>
+                <a href="/blog">Blog</a>
               </li>
               <li className="list-unstyled">
-                <a href="/info">Link 4</a>
+                <a href="/info">Info</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="/training">Training</a>
               </li>
             </ul>
           </MDBCol>
